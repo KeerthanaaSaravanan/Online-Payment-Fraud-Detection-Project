@@ -1,12 +1,8 @@
-Here's the complete report and Python code for detecting online payment fraud using a **Random Forest Classifier**. The report is formatted to include an introduction, dataset description, machine learning model details, and the full Python code for fraud detection.
+## **Online Payment Fraud Detection with Random Forest**
 
 ---
 
-### **Online Payment Fraud Detection with Random Forest**
-
----
-
-#### **Introduction**
+### **Introduction**
 
 Online payment is the most popular transaction method in the world today. However, with an increase in online payments also comes a rise in payment fraud. Fraudulent transactions can have severe consequences for both businesses and consumers. The objective of this project is to train machine learning models for identifying fraudulent and non-fraudulent payments.
 
@@ -14,7 +10,7 @@ This report outlines the steps taken to implement a **Random Forest Classifier**
 
 ---
 
-#### **Dataset Description**
+### **Dataset Description**
 
 The dataset used in this project consists of the following columns:
 
@@ -32,7 +28,7 @@ The dataset used in this project consists of the following columns:
 
 ---
 
-#### **Python Libraries Used**
+### **Python Libraries Used**
 
 The following Python libraries were utilized in this project:
 
@@ -49,7 +45,7 @@ A **Random Forest Classifier** was selected for this task due to its ability to 
 
 ---
 
-#### **Steps in the Project**
+### **Steps in the Project**
 
 1. **Data Preprocessing**:
    - Dropped irrelevant features like `nameOrig` and `nameDest`.
@@ -69,11 +65,11 @@ A **Random Forest Classifier** was selected for this task due to its ability to 
 
 ---
 
-#### **Python Code for Fraud Detection**
+### **Python Code for Fraud Detection**
 
 
 
-#### **Conclusion**
+### **Conclusion**
 
 The **Random Forest Classifier** achieved promising results in detecting online payment fraud. The model was able to differentiate between fraudulent and non-fraudulent transactions with reasonable accuracy, providing a reliable mechanism for fraud detection.
 
@@ -86,21 +82,9 @@ While the Random Forest model performs well, further improvements could be made 
 
 ---
 
-#### **Visualizations**
+### **Visualizations**
 This project includes visualizations for:
 1. **Confusion Matrix**: Visualized as a heatmap to show the true vs. predicted labels for fraud detection.
 2. **Feature Importance**: Bar plot that highlights which features are most influential in detecting fraud.
 
 ---
-
-#### **Python Code on GitHub**
-
-The Python code used in this project can be accessed through the following GitHub link:
-
-[Download the Python Code for Random Forest Fraud Detection from GitHub](https://github.com/yourusername/online-payment-fraud-detection)
-
-(Note: Replace `yourusername` with your actual GitHub username and `online-payment-fraud-detection` with the appropriate repository name).
-
---- 
-
-This report and code cover all the necessary steps for building a fraud detection system using a Random Forest model. Let me know if you need any further modifications!
