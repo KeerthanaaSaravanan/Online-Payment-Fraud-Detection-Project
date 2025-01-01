@@ -1,6 +1,7 @@
-# Online-Payment-Fraud-Detection-Project
 ### Online Payment Fraud Detection with Random Forest
+
 ---
+
 #### **Introduction**
 Online payment is the most popular transaction method in the world today. However, with an increase in online payments also comes a rise in payment fraud. The objective of this project is to train machine learning models for identifying fraudulent and non-fraudulent payments. The dataset, sourced from Kaggle, contains historical information about fraudulent transactions, which can be leveraged to detect fraud in online payments effectively.
 
@@ -73,5 +74,10 @@ The project includes visualizations for:
 2. Correlation heatmap of numerical features.
 3. Confusion matrix of the Random Forest model.
 4. Feature importance bar plot to interpret which variables contribute the most.
+
+---
+
+#### **Python Code**
+The Python code used in this project can be accessed through the following link:
 
 ---
