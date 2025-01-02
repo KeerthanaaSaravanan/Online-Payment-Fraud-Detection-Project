@@ -67,6 +67,14 @@ A **Random Forest Classifier** was selected for this task due to its ability to 
 
 ### **Python Code for Fraud Detection**
 
+---
+
+### **Visualizations**
+This project includes visualizations for:
+1. **Confusion Matrix**: Visualized as a heatmap to show the true vs. predicted labels for fraud detection.
+2. **Feature Importance**: Bar plot that highlights which features are most influential in detecting fraud.
+
+---
 
 
 ### **Conclusion**
@@ -79,12 +87,5 @@ The **Random Forest Classifier** achieved promising results in detecting online 
   - The **ROC AUC score** further confirmed the model’s ability to classify fraudulent transactions effectively.
 
 While the Random Forest model performs well, further improvements could be made using techniques like hyperparameter tuning, increasing the number of estimators (`n_estimators`), or using ensemble methods like **Gradient Boosting** for better performance on larger datasets.
-
----
-
-### **Visualizations**
-This project includes visualizations for:
-1. **Confusion Matrix**: Visualized as a heatmap to show the true vs. predicted labels for fraud detection.
-2. **Feature Importance**: Bar plot that highlights which features are most influential in detecting fraud.
 
 ---
