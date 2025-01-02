@@ -1,4 +1,4 @@
-# Online Payment Fraud Detection with Random Forest
+### Online Payment Fraud Detection with Random Forest
 
 ## Introduction
 Online payments are the backbone of modern commerce, but they come with the risk of fraudulent transactions. Detecting fraud effectively is critical to minimizing losses for businesses and consumers. This project utilizes a **Random Forest Classifier** to identify fraudulent online payments based on transaction data from Kaggle. The goal is to build a reliable fraud detection model.
@@ -87,6 +87,7 @@ Top contributing features:
 The **Random Forest Classifier** demonstrated strong performance in fraud detection, achieving a high accuracy and ROC AUC score. Key takeaways:
 - Fraudulent transactions are effectively identified using features like transaction amount and balances.
 - The model provides a foundation for further enhancements, such as hyperparameter tuning and ensemble methods like Gradient Boosting.
+---
 
 ### Future Work
 To improve the model's accuracy and robustness:
