@@ -7,25 +7,27 @@ The dataset consists of transaction records with the following key features:
 
 - step: A time unit where 1 step equals 1 hour.
 - type: The type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT).
-amount: The transaction amount.
-nameOrig: The originating account identifier.
-oldbalanceOrg: Initial balance of the originating account.
-newbalanceOrig: Updated balance of the originating account.
-nameDest: The recipient account identifier.
-oldbalanceDest: Initial balance of the recipient account.
-newbalanceDest: Updated balance of the recipient account.
-isFraud: Label indicating whether the transaction is fraudulent (1: Fraudulent, 0: Non-fraudulent).
-isFlaggedFraud: Indicates whether the transaction was flagged as suspicious.
-Python Libraries Used
+- amount: The transaction amount.
+- nameOrig: The originating account identifier.
+- oldbalanceOrg: Initial balance of the originating account.
+- newbalanceOrig: Updated balance of the originating account.
+- nameDest: The recipient account identifier.
+- oldbalanceDest: Initial balance of the recipient account.
+- newbalanceDest: Updated balance of the recipient account.
+- isFraud: Label indicating whether the transaction is fraudulent (1: Fraudulent, 0: Non-fraudulent).
+- isFlaggedFraud: Indicates whether the transaction was flagged as suspicious.
+
+## Python Libraries Used
 The following libraries were employed for data processing, visualization, and machine learning:
 
-pandas: For data manipulation and analysis.
-numpy: For numerical computations.
-matplotlib & seaborn: For data visualization.
-scikit-learn: For machine learning and evaluation tasks.
-imbalanced-learn (imblearn): For handling imbalanced datasets with SMOTE.
-shap: For explainability of machine learning models.
-Data Preprocessing
+- pandas: For data manipulation and analysis.
+- numpy: For numerical computations.
+- matplotlib & seaborn: For data visualization.
+- scikit-learn: For machine learning and evaluation tasks.
+- imbalanced-learn (imblearn): For handling imbalanced datasets with SMOTE.
+- shap: For explainability of machine learning models.
+
+## Data Preprocessing
 Key preprocessing steps include:
 
 Handling Missing Values: Removed rows with missing isFraud labels to ensure data integrity.
@@ -57,9 +59,6 @@ ROC AUC Score: Assesses the model's ability to distinguish between fraudulent an
 Results:
 Accuracy: Achieved 90% (example value).
 Confusion Matrix:
-lua
-Copy
-Edit
 [[TN, FP],
  [FN, TP]]
 Top Contributing Features:
