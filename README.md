@@ -1,12 +1,12 @@
-## Online Payment Fraud Detection with Random Forest
-### Introduction
+# Online Payment Fraud Detection with Random Forest
+## Introduction
 Online payments are integral to modern commerce, yet they are vulnerable to fraudulent transactions. Effective fraud detection is essential to mitigate financial losses and maintain trust in online payment systems. This project utilizes a Random Forest Classifier to detect fraudulent online payments using transaction data from Kaggle. The goal is to build a reliable and scalable fraud detection model.
 
-Dataset Description
+## Dataset Description
 The dataset consists of transaction records with the following key features:
 
-step: A time unit where 1 step equals 1 hour.
-type: The type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT).
+- step: A time unit where 1 step equals 1 hour.
+- type: The type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT).
 amount: The transaction amount.
 nameOrig: The originating account identifier.
 oldbalanceOrg: Initial balance of the originating account.
